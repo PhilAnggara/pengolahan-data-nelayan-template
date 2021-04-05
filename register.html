@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login</title>
+  <title>Register</title>
 
   <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" >
   <!-- Fonts -->
@@ -24,11 +24,19 @@
         <div class="col-sm-5">
           <div class="card px-2">
             <div class="card-body">
-              <div class="text-center mb-3">
-                <img src="frontend/images/logo-kementrian.png" class="">
-              </div>
-              <h3 class="text-uppercase text-center">Dinas Perikanan Kab. Kep. Siau Tagulandang Biaro (Sitaro)</h3>
-              <form>
+              <form class="reg">
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap</label>
+                  <input type="text" class="form-control" name="nama" autocomplete="off">
+                </div>
+                <div class="form-group">
+                  <label for="alamat">Alamat</label>
+                  <input type="text" class="form-control" name="alamat" autocomplete="off">
+                </div>
+                <div class="form-group">
+                  <label for="noTelp">No Telp</label>
+                  <input type="number" class="form-control" name="noTelp">
+                </div>
                 <div class="form-group">
                   <label for="username">Username</label>
                   <input type="text" class="form-control" name="username" autocomplete="off">
@@ -37,10 +45,7 @@
                   <label for="password">Password</label>
                   <input type="password" class="form-control" name="password">
                 </div>
-                <div class="d-flex justify-content-between">
-                  <button type="submit" class="btn btn-success">Masuk</button>
-                  <a href="" class="btn btn-outline-success">Registrasi</a>
-                </div>
+                <button type="submit" class="btn btn-block btn-success">Daftar</button>
               </form>
             </div>
           </div>
