@@ -12,6 +12,14 @@ h2 {
   font-size: 16px;
   font-weight: 600;
 }
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
 h5 {
   font-size: 16px;
 }
@@ -56,7 +64,68 @@ h5 {
     }
   }
 }
+.content-user {
+  .card {
+    border-radius: 20px;
+    min-height: 400px;
+    .btn-logout {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-radius: 0;
+      font-weight: 700;
+      margin: 20px 20px;
+      padding: 5px 26px;
+    }
+    .btn-kotak {
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      padding-left: 20px;
+    }
+    .user {
+      img {
+        width: 100px;
+        padding: 1px;
+        margin-bottom: 18px;
+        border-width: 3px;
+      }
+      h4 {
+        font-weight: 600;
+        margin-bottom: 100px;
+      }
+    }
+  }
+}
 // End of content
+
+// Login
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg-login.PNG");
+  .card {
+    border-radius: 18px;
+    margin-top: 140px;
+    img {
+      width: 180px;
+    }
+    form {
+      .d-flex {
+        margin-top: 80px;
+      }
+      label {
+        font-size: 14px;
+        margin: 10px 0px 0px 0px;
+      }
+      button, a {
+        width: 49%;
+      }
+    }
+  }
+}
+// End of login
 
 // 
 // DESKTOP VERSION
@@ -85,5 +154,13 @@ h5 {
     }
   }
   // DESKTOP End of header
+
+  // DESKTOP Login
+  .login {
+    .card {
+      margin-top: 40px;
+    }
+  }
+  // DESKTOP End of login
   
 }

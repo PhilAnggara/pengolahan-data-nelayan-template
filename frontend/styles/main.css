@@ -14,6 +14,16 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 h5 {
   font-size: 16px;
 }
@@ -48,6 +58,60 @@ h5 {
   font-size: 14px;
 }
 
+.content-user .card {
+  border-radius: 20px;
+  min-height: 400px;
+}
+.content-user .card .btn-logout {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  font-weight: 700;
+  margin: 20px 20px;
+  padding: 5px 26px;
+}
+.content-user .card .btn-kotak {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.content-user .card .user img {
+  width: 100px;
+  padding: 1px;
+  margin-bottom: 18px;
+  border-width: 3px;
+}
+.content-user .card .user h4 {
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg-login.PNG");
+}
+.login .card {
+  border-radius: 18px;
+  margin-top: 140px;
+}
+.login .card img {
+  width: 180px;
+}
+.login .card form .d-flex {
+  margin-top: 80px;
+}
+.login .card form label {
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+.login .card form button, .login .card form a {
+  width: 49%;
+}
+
 @media (min-width: 992px) {
   h1 {
     font-size: 28px;
@@ -65,5 +129,9 @@ h5 {
   .navbar .navbar-brand img {
     height: 100px;
     width: 110px;
+  }
+
+  .login .card {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
