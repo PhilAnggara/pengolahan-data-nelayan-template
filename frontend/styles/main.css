@@ -1,1 +1,69 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Assistant", sans-serif;
+  background-color: #ececec;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 82%;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.navbar {
+  background-image: url("../images/bg-header.png");
+  height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.navbar .navbar-brand img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 40px;
+  width: 44px;
+}
+
+.content .card {
+  border-radius: 20px;
+}
+.content .card form .lokasi p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.content .card form label {
+  font-size: 14px;
+  margin: 10px 0px 0px 0px;
+}
+.content .card form button {
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .navbar {
+    height: 180px;
+  }
+  .navbar .navbar-brand img {
+    height: 100px;
+    width: 110px;
+  }
+}/*# sourceMappingURL=main.css.map */

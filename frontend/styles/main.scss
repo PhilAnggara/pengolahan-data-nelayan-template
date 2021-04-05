@@ -1,0 +1,89 @@
+// Blobal
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: #ececec;
+}
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 82%;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 16px;
+}
+// End of global
+
+// Header
+.navbar {
+  background-image: url("../images/bg-header.png");
+  height: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  .navbar-brand {
+    img {
+      object-fit: cover;
+      height: 40px;
+      width: 44px;
+    }
+  }
+}
+// End of header
+
+// Content
+.content {
+  .card {
+    border-radius: 20px;
+    form {
+      .lokasi {
+        p {
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+      }
+      label {
+        font-size: 14px;
+        margin: 10px 0px 0px 0px;
+      }
+      button {
+        border-radius: 15px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+// End of content
+
+// 
+// DESKTOP VERSION
+// 
+@media (min-width: 992px) {
+
+  // DESKTOP Global
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  // DESKTOP End of global
+
+  // DESKTOP Header
+  .navbar {
+    height: 180px;
+    .navbar-brand {
+      img {
+        height: 100px;
+        width: 110px;
+      }
+    }
+  }
+  // DESKTOP End of header
+  
+}
