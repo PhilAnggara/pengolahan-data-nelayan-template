@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Input Hasil Produksi - Pengolahan Data Nelayan</title>
+  <title>Kelola Data Tangkapan - Pengolahan Data Nelayan</title>
 
   <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" >
   <!-- Fonts -->
@@ -33,42 +33,50 @@
   <!-- End of header -->
 
   <!-- Content -->
-  <section class="content">
+  <section class="content-kelola">
     <div class="container-fluid px-3 py-2">
       <a href="" class="btn">
         <i class="fas fa-lg text-muted fa-chevron-left"></i>
       </a>
-      <div class="row">
-        <div class="col-sm-4">
-          <h2 class="text-uppercase ml-2">Input hasil produksi</h2>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h4>Kelola Data Hasil Tangkapan <i class="far text-muted fa-edit ml-1"></i></h4>
+          <table class="table table-bordered table-responsive-sm text-center">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nama Pemilik</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Lokasi</th>
+                <th scope="col">Hasil Tangkapan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nama Satu</td>
+                <td>06/04/2020</td>
+                <td>Siau</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Nama Dua</td>
+                <td>06/04/2020</td>
+                <td>Tagulandang</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Nama Tiga</td>
+                <td>06/04/2020</td>
+                <td>Biaro</td>
+                <td>21</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="col-sm-8">
-          <div class="card shadow-sm">
-            <div class="card-body">
-              <form class="p-3 col-sm-8">
-                <div class="form-group">
-                  <label for="lokasi">Lokasi</label>
-                  <select name="lokasi" required class="form-control form-control-sm">
-                    <option value="">-- Pilih Pasar --</option>
-                    <option value="Pasar Siau">Siau</option>
-                    <option value="Pasar Tagulandang">Tagulandang</option>
-                  </select>
-                </div>
-                <div class="from-group mb-2">
-                  <label for="pasar">Nama Pasar</label>
-                  <input class="form-control form-control-sm" name="pasar" type="text" placeholder="">
-                </div>
-                <div class="from-group">
-                  <label for="produksi">Hasil Produksi</label>
-                  <input class="form-control form-control-sm" name="produksi" type="number" placeholder="">
-                </div>
-                <button type="submit" class="btn btn-secondary px-sm-5 py-2 mt-5 mb-2 ml-3">Simpan</button>
-                <button type="submit" class="btn btn-light px-sm-5 py-2 mt-5 mb-2">Batalkan</button>
-              </form>
-            </div>
-          </div>          
-        </div>
-      </div>
+      </div>  
     </div>
   </section>
   <!-- End of content -->

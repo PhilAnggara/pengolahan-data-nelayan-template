@@ -58,6 +58,9 @@ h5 {
   font-size: 14px;
 }
 
+.content-user .card.tabel {
+  border-radius: 8px;
+}
 .content-user .card {
   border-radius: 20px;
   min-height: 400px;
@@ -78,15 +81,32 @@ h5 {
   margin-bottom: 40px;
   padding-left: 20px;
 }
+.content-user .card .btn-kotak-kanan {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 .content-user .card .user img {
-  width: 100px;
+  width: 70px;
   padding: 1px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   border-width: 3px;
 }
 .content-user .card .user h4 {
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+}
+.content-user .card table th, .content-user .card table td {
+  font-size: 12px;
+}
+
+.content-kelola .card {
+  border-radius: 20px;
+  min-height: 400px;
+}
+.content-kelola .card table th, .content-kelola .card table td {
+  font-size: 14px;
 }
 
 .login {
@@ -96,7 +116,7 @@ h5 {
 }
 .login .card {
   border-radius: 18px;
-  margin-top: 110px;
+  margin-top: 70px;
   height: 580px;
 }
 .login .card img {
